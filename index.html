@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Геотехнология - проектирование, лицензирование, бурение, водоподготовка, очистные сооружения, автоматизация и обслуживание объектов водоснабжения." />
+  <title>Геотехнология - инженерные решения в сфере воды</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body class="page-home">
+  <div class="backdrop" id="backdrop"></div>
+
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar-inner">
+      <div class="sidebar-top">
+        <div class="sidebar-title">Навигация</div>
+        <button class="close-sidebar" id="closeSidebar" aria-label="Закрыть меню">×</button>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a data-nav-link href="about.html">О нас</a>
+        <a data-nav-link href="contacts.html">Контакты</a>
+        <a data-nav-link href="clients.html">Заказчикам</a>
+        <a data-nav-link href="projects.html">Наши проекты</a>
+        <a data-nav-link href="design-license.html">Проектирование и лицензирование</a>
+        <a data-nav-link href="drilling.html">Бурение и обустройство</a>
+        <a data-nav-link href="water-treatment.html">Водоподготовительные установки</a>
+        <a data-nav-link href="treatment-facilities.html">Очистные сооружения</a>
+        <a data-nav-link href="installation-automation.html">Монтаж, шеф-монтаж, автоматизация</a>
+        <a data-nav-link href="service.html">Обслуживание</a>
+        <a data-nav-link href="analytics.html">Экспертное мнение и аналитика</a>
+      </nav>
+    </div>
+  </aside>
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <div class="header-shell">
+        <button class="menu-button" id="menuButton" aria-label="Открыть меню" aria-expanded="false" aria-controls="sidebar">
+          <div class="bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+
+        <a class="brand" href="index.html">
+          <div class="brand-mark">
+            <img class="brand-logo" src="assets/img/logo.svg" alt="Логотип Геотехнология" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+            <span class="brand-fallback">GT</span>
+          </div>
+
+          <div class="brand-text">
+            <div class="brand-name">Геотехнология</div>
+            <div class="brand-sub">Полный инженерный цикл в сфере воды</div>
+          </div>
+        </a>
+
+        <div class="header-contacts">
+          <div class="header-contacts-item">
+            <strong>Телефон</strong>
+            <a href="tel:+79272129200">+7 (927) 212-92-00</a>
+          </div>
+
+          <div class="header-contacts-item">
+            <strong>E-mail</strong>
+            <a href="mailto:t-stail@mail.ru">t-stail@mail.ru</a>
+          </div>
+
+          <div class="header-contacts-item">
+            <strong>Адрес</strong>
+            г. Сызрань, Московское шоссе, д. 1
+          </div>
+
+          <div class="header-contacts-item">
+            <strong>Режим работы</strong>
+            Пн-Пт, 09:00-18:00
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="floating-contact reveal">
+    <div class="floating-contact-title">Связь</div>
+
+    <a class="floating-contact-link" href="tel:+79272129200">
+      <span>Телефон</span>
+      <strong>+7 (927) 212-92-00</strong>
+    </a>
+
+    <a class="floating-contact-link" href="mailto:t-stail@mail.ru">
+      <span>E-mail</span>
+      <strong>t-stail@mail.ru</strong>
+    </a>
+
+    <a class="floating-contact-button" href="contacts.html">Оставить заявку</a>
+  </aside>
+
+  <section class="hero-home">
+    <div class="hero-grid-lines"></div>
+
+    <div class="container hero-inner">
+      <div class="hero-mini-card reveal">
+        <div class="eyebrow">Обратная связь</div>
+        <h1>Свяжитесь с нами</h1>
+        <p>Консультация по лицензированию, бурению, водоподготовке, очистным сооружениям и сервису.</p>
+
+        <div class="mini-contact-list">
+          <a href="tel:+79272129200">+7 (927) 212-92-00</a>
+          <a href="mailto:t-stail@mail.ru">t-stail@mail.ru</a>
+          <span>г. Сызрань, Московское шоссе, д. 1</span>
+        </div>
+
+        <div class="mini-actions">
+          <a class="btn btn-primary btn-small" href="contacts.html">Оставить заявку</a>
+          <a class="btn btn-secondary btn-small" href="contacts.html">Контакты</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-title-wrap">
+            <small>Основные направления</small>
+            <h2 class="section-title">Ключевые инженерные блоки</h2>
+          </div>
+          <div class="section-text">
+            Главная страница выстроена как B2B-точка входа: заказчик сразу понимает профиль компании,
+            видит специализацию и быстро переходит в нужный инженерный раздел.
+          </div>
+        </div>
+
+        <div class="cards-4">
+          <article class="service-card reveal">
+            <div class="index">01</div>
+            <h3>Проектирование и лицензирование</h3>
+            <p>Получение лицензии недропользователя, инженерная подготовка и проектная документация объекта.</p>
+            <a class="card-link" href="design-license.html">Перейти в раздел →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="index">02</div>
+            <h3>Бурение и обустройство скважин</h3>
+            <p>Полный цикл буровых работ, монтаж оборудования, магистрали и подготовка к эксплуатации.</p>
+            <a class="card-link" href="drilling.html">Перейти в раздел →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="index">03</div>
+            <h3>Водоподготовка и очистные сооружения</h3>
+            <p>Модульные станции водоподготовки и очистные системы под технические параметры объекта.</p>
+            <a class="card-link" href="water-treatment.html">Перейти в раздел →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="index">04</div>
+            <h3>Монтаж, автоматизация и сервис</h3>
+            <p>Шеф-монтаж, автоматизация, телеинспекция, каротаж, обслуживание и восстановление дебита.</p>
+            <a class="card-link" href="service.html">Перейти в раздел →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-title-wrap">
+            <small>Почему Геотехнология</small>
+            <h2 class="section-title">Инженерный подход для корпоративных заказчиков</h2>
+          </div>
+          <div class="section-text">
+            Мы работаем не как набор отдельных услуг, а как инженерный подрядчик,
+            который ведёт объект от первой стадии до устойчивой эксплуатации.
+          </div>
+        </div>
+
+        <div class="advantage-grid">
+          <article class="adv-card reveal">
+            <div class="adv-icon">01</div>
+            <h3>Полный цикл реализации</h3>
+            <p>Один подрядчик на весь маршрут: лицензирование, проектирование, бурение, водоподготовка, автоматизация и сервис.</p>
+          </article>
+
+          <article class="adv-card reveal">
+            <div class="adv-icon">02</div>
+            <h3>Техническое обоснование решений</h3>
+            <p>Каждое решение опирается на обследование, проектную логику, каротаж, телеинспекцию и инженерный анализ.</p>
+          </article>
+
+          <article class="adv-card reveal">
+            <div class="adv-icon">03</div>
+            <h3>Сервис после запуска</h3>
+            <p>После ввода в эксплуатацию сопровождаем объект: обслуживание, восстановление дебита, аудит и модернизация.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-title-wrap">
+            <small>Наши проекты</small>
+            <h2 class="section-title">Типовые кейсы и география работ</h2>
+          </div>
+          <div class="section-text">
+            Раздел ниже можно постепенно заменить на реальные объекты компании, сохранив логику B2B-подачи и региональное покрытие.
+          </div>
+        </div>
+
+        <div class="projects-layout">
+          <div class="project-stack">
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-type">Типовой кейс</span>
+                <span class="project-id">01</span>
+              </div>
+              <h3>Промышленный водозаборный узел</h3>
+              <p>Лицензирование, бурение, обустройство скважины, насосное оборудование, инженерная обвязка и ввод в эксплуатацию.</p>
+              <div class="project-tags">
+                <span>Недропользование</span>
+                <span>Бурение</span>
+                <span>Монтаж</span>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-type">Типовой кейс</span>
+                <span class="project-id">02</span>
+              </div>
+              <h3>Модульная водоподготовка для объекта инфраструктуры</h3>
+              <p>Подбор технологии, компоновка модульной станции, автоматизация и сопровождение после запуска.</p>
+              <div class="project-tags">
+                <span>Водоподготовка</span>
+                <span>Автоматика</span>
+                <span>Пусконаладка</span>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-type">Типовой кейс</span>
+                <span class="project-id">03</span>
+              </div>
+              <h3>Диагностика и восстановление эксплуатационных параметров</h3>
+              <p>Телеинспекция, каротаж, техническое обследование и восстановление дебита скважины импульсным методом.</p>
+              <div class="project-tags">
+                <span>Диагностика</span>
+                <span>Каротаж</span>
+                <span>Сервис</span>
+              </div>
+            </article>
+          </div>
+
+          <article class="geo-card reveal">
+            <div class="geo-head">
+              <h3>География работ по РФ</h3>
+              <span class="geo-badge">Вся территория РФ</span>
+            </div>
+
+            <p>
+              Компания базируется в Сызрани и сопровождает инженерные задачи по территории Российской Федерации.
+              Ниже расположена схематичная карта покрытия.
+            </p>
+
+<div class="coverage-map">
+  <svg class="coverage-svg" viewBox="0 0 980 360" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <defs>
+      <linearGradient id="rfLine" x1="80" y1="120" x2="900" y2="250" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#9FD4F3"/>
+        <stop offset="1" stop-color="#2F7BBD"/>
+      </linearGradient>
+      <linearGradient id="rfFill" x1="60" y1="90" x2="920" y2="290" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#E8F5FF"/>
+        <stop offset="1" stop-color="#D5E8F8"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M70 205C105 160 152 148 208 158C250 166 282 144 328 146C380 148 414 170 462 171C522 172 555 143 620 147C691 152 726 173 786 174C832 175 858 160 905 164L905 222C868 218 846 234 792 232C736 230 700 214 640 213C573 212 536 230 470 228C402 226 360 214 296 216C238 218 198 246 132 240C104 237 84 225 70 205Z" fill="url(#rfFill)" stroke="#B8D9F2" stroke-width="2"/>
+
+    <path d="M88 188C132 162 176 153 225 162C271 170 311 154 355 155C407 156 447 182 496 182C552 182 590 156 650 158C716 160 754 183 815 184C854 185 882 175 908 175" stroke="url(#rfLine)" stroke-width="6" stroke-linecap="round"/>
+
+    <g class="map-mark">
+      <circle cx="228" cy="162" r="8" fill="#1B4F83"/>
+      <circle cx="228" cy="162" r="15" fill="#1B4F83" fill-opacity="0.15"/>
+      <text x="186" y="146">Москва</text>
+    </g>
+
+    <g class="map-mark">
+      <circle cx="304" cy="198" r="8" fill="#1B4F83"/>
+      <circle cx="304" cy="198" r="15" fill="#1B4F83" fill-opacity="0.15"/>
+      <text x="254" y="223">Сызрань</text>
+    </g>
+
+    <g class="map-mark">
+      <circle cx="356" cy="224" r="8" fill="#1B4F83"/>
+      <circle cx="356" cy="224" r="15" fill="#1B4F83" fill-opacity="0.15"/>
+      <text x="326" y="249">Юг</text>
+    </g>
+
+    <g class="map-mark">
+      <circle cx="474" cy="176" r="8" fill="#1B4F83"/>
+      <circle cx="474" cy="176" r="15" fill="#1B4F83" fill-opacity="0.15"/>
+      <text x="432" y="155">Урал</text>
+    </g>
+
+    <g class="map-mark">
+      <circle cx="628" cy="170" r="8" fill="#1B4F83"/>
+      <circle cx="628" cy="170" r="15" fill="#1B4F83" fill-opacity="0.15"/>
+      <text x="582" y="150">Сибирь</text>
+    </g>
+
+    <g class="map-mark">
+      <circle cx="806" cy="184" r="8" fill="#1B4F83"/>
+      <circle cx="806" cy="184" r="15" fill="#1B4F83" fill-opacity="0.15"/>
+      <text x="734" y="164">Дальний Восток</text>
+    </g>
+  </svg>
+</div>
+
+            <div class="geo-tags">
+              <span>Центральный регион</span>
+              <span>Поволжье</span>
+              <span>Юг России</span>
+              <span>Урал</span>
+              <span>Сибирь</span>
+              <span>Дальний Восток</span>
+            </div>
+
+            <div style="margin-top:16px;">
+              <a class="btn btn-primary" href="projects.html">Открыть раздел проектов</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-title-wrap">
+            <small>Как мы работаем</small>
+            <h2 class="section-title">Этапы взаимодействия</h2>
+          </div>
+          <div class="section-text">
+            Для B2B-заказчика важны последовательность, прозрачность и инженерная управляемость проекта.
+          </div>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card reveal">
+            <div class="process-number">01</div>
+            <h3>Анализ задачи</h3>
+            <p>Изучаем объект, исходные данные, ограничения и состав работ, необходимых для реализации.</p>
+          </article>
+
+          <article class="process-card reveal">
+            <div class="process-number">02</div>
+            <h3>Проектная проработка</h3>
+            <p>Формируем техническую схему, маршрут согласований, документацию и структуру реализации.</p>
+          </article>
+
+          <article class="process-card reveal">
+            <div class="process-number">03</div>
+            <h3>Реализация</h3>
+            <p>Выполняем бурение, монтаж, оснащение, водоподготовку, автоматизацию и пусконаладку.</p>
+          </article>
+
+          <article class="process-card reveal">
+            <div class="process-number">04</div>
+            <h3>Сервис и контроль</h3>
+            <p>Берём объект на обслуживание, диагностику, восстановление рабочих параметров и модернизацию.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="summary-grid">
+          <article class="summary-main reveal">
+            <h3>Коротко о компании</h3>
+            <p>
+              Геотехнология - инженерная компания полного цикла в сфере воды.
+              Мы сопровождаем объекты от лицензирования и бурения до проектирования,
+              водоподготовки, автоматизации, сервисного обслуживания и восстановления
+              эксплуатационных параметров скважин.
+            </p>
+
+            <div class="tag-list">
+              <span>Лицензирование</span>
+              <span>Бурение</span>
+              <span>Водоподготовка</span>
+              <span>Очистные сооружения</span>
+              <span>Автоматизация</span>
+              <span>Сервис</span>
+            </div>
+          </article>
+
+          <article class="info-box reveal">
+            <h3>Заказчикам</h3>
+            <p>
+              Работаем с промышленными предприятиями, коммерческими и инфраструктурными объектами,
+              муниципальными структурами, застройщиками и частными заказчиками.
+            </p>
+          </article>
+
+          <article class="info-box reveal">
+            <h3>Экспертный подход</h3>
+            <p>
+              В основе решений - обследование, инженерный анализ, каротаж,
+              телеинспекция и практический опыт реализации сложных объектов.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<section class="section section-soft infographic-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title-wrap">
+        <small>Инфографика</small>
+        <h2 class="section-title">Схематичная инфографика</h2>
+      </div>
+      <div class="section-text">
+        Здесь предусмотрено место под вашу PNG-схему для главной страницы.
+      </div>
+    </div>
+
+    <div class="infographic-card reveal">
+      <img src="assets/img/infographics/home-info.png" alt="Схематичная инфографика" onerror="this.closest('.infographic-section').style.display='none';" />
+    </div>
+  </div>
+</section>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-title">Геотехнология</div>
+        <div class="footer-sub">Полный инженерный цикл в сфере воды</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Главная</a>
+        <a href="about.html">О компании</a>
+        <a href="projects.html">Наши проекты</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="design-license.html">Лицензирование</a>
+        <a href="drilling.html">Бурение</a>
+        <a href="service.html">Обслуживание</a>
+      </div>
+
+      <div class="footer-contacts">
+        <div><a href="tel:+79272129200">+7 (927) 212-92-00</a></div>
+        <div><a href="mailto:t-stail@mail.ru">t-stail@mail.ru</a></div>
+        <div>г. Сызрань, Московское шоссе, д. 1</div>
+        <div>Пн-Пт, 09:00-18:00</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
